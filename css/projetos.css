@@ -89,7 +89,7 @@
 }
 
 /* Estilos para tablets e dispositivos móveis */
-@media screen and (max-width: 1024px) and (max-width: 992px) {
+@media screen and (max-width: 1024px) and (max-width: 1080px) {
   .projetos {
     grid-template-columns: 1fr;
     justify-items: center;

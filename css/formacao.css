@@ -153,7 +153,7 @@
 }
 
 /* Outras medidas de aparelhos */
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 1080px) and (max-width: 768px) {
   .formacao-container {
     grid-template-columns: 1fr;
   }
