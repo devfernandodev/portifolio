@@ -29,6 +29,33 @@
   justify-content: center;
   width: 500px;
 }
+.h1-digitando {
+  white-space: pre;
+}
+
+@keyframes digitando {
+  0% {
+    content: "";
+  }
+  50% {
+    content: "Desenvolvedor";
+  }
+  100% {
+    content: "Desenvolvedor\nFront End";
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #000000;
+  }
+}
+
+
+
 
 
 
