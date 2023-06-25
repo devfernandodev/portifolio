@@ -1,0 +1,66 @@
+.introducao {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+.perfil {
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom right, #ed5636, #633bbc);
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+.introducao h1 {
+  font-size: 3rem;
+  line-height: 1.125;
+  margin-bottom: 30px;
+  background-image: linear-gradient(to bottom right, #ed5636, #633bbc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.introducao p {
+  color: black;
+  justify-content: center;
+  width: 500px;
+}
+
+
+
+/* Estilos para tablets e dispositivos móveis */
+@media screen and (max-width: 1024px) {
+  .introducao {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .perfil {
+    margin-bottom: 30px;
+  }
+
+  .introducao p {
+    width: 100%;
+    max-width: 500px;
+  }
+}
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 767px) {
+  .introducao {
+    padding: 20px;
+  }
+
+  .introducao h1 {
+    font-size: 2.5rem;
+  }
+
+  .introducao p {
+    max-width: 100%;
+  }
+}

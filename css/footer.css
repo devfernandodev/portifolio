@@ -1,0 +1,82 @@
+.footer {
+  background-color: #000000;
+}
+.footer-container {
+  max-width: 1200px;
+  padding: 120px 20px 60px 20px;
+  margin: 0auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+}
+.footer-container h3{
+  grid-column: 1/-1;
+  text-align: center;
+  font-size: 3rem;
+  background-image: linear-gradient(#ed5636,#633bbc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.footer-texto {
+  padding: 30px;
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: #cccccc;
+}
+.footer-contato {
+  display: flex;
+  gap: 60px;
+  
+ }
+
+.footer-copy {
+  text-align: center;
+  grid-column: 1/-1;
+  font-size: 1.125rem;
+  color: #8f8f8f;
+}
+.footer-contato .footer-link{
+  height: 6.5rem;
+  width: 2.5rem;
+  color: aliceblue;
+  font-size: 2rem;
+  
+}
+#email{
+  background-color: #0077B5;
+  padding: 1rem;
+  border-radius: 0.575rem;
+}
+#linkedin{
+  background-color: #0077B5;
+  padding: 1rem;
+  border-radius: 0.575rem;
+}
+#whats{
+  background-color: #25D366;
+  padding: 1rem ;
+  border-radius: 0.575rem;
+}
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 767px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    text-align: center;
+    
+  }
+  .footer-contato .footer-link{
+    justify-content: center;
+  }
+}

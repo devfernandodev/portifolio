@@ -1,0 +1,84 @@
+body {
+  background-color: #eaeaea;
+  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+  margin: 0px;
+  color: black;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.line {
+  max-width: 900px;
+  padding: 1px;
+  background-image: linear-gradient(to bottom right, #ed5636, #633bbc);
+}
+
+.subtitulo {
+  font-size: 5rem;
+  line-height: 1;
+  justify-self: center;
+  /* align-self: center; */
+  background-image: linear-gradient(to bottom right, #ed5636, #633bbc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
+
+/* Para navegadores baseados em WebKit */
+::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Cor do fundo da trilha */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Cor do botão de rolagem */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Cor do botão de rolagem ao passar o mouse */
+}
+
+/* Para navegadores Firefox */
+scrollbar {
+  width: 10px; /* Largura da barra de rolagem */
+}
+
+scrollbar-track {
+  background: #888; /* Cor do fundo da trilha */
+}
+
+scrollbar-thumb {
+  background: #888; /* Cor do botão de rolagem */
+}
+
+scrollbar-thumb:hover {
+  background: #555; /* Cor do botão de rolagem ao passar o mouse */
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .subtitulo {
+    font-size: 3rem;
+  }
+}
+
+
