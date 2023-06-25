@@ -83,5 +83,13 @@ scrollbar-thumb:hover {
     font-size: 1.40rem;
   }
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .subtitulo {
+    font-size: 3rem;
+  }
+  body{
+    font-size: 1.40rem;
+  }
+}
 
 
