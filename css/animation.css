@@ -1,0 +1,41 @@
+/* Animação para os elementos que descem ao entrar no site */
+@keyframes slideDown {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Animação para o cabeçalho */
+  .header {
+    animation: slideDown 0.5s ease-in-out;
+  }
+  
+  /* Animação para a seção de introdução */
+  .introducao {
+    animation: slideDown 0.5s ease-in-out;
+    animation-delay: 0.2s;
+  }
+  
+  /* Animação para os projetos */
+  .projetos .sites {
+    animation: slideDown 0.5s ease-in-out;
+    animation-delay: 0.4s;
+  }
+  
+  /* Animação para a seção de formação */
+  .formacao {
+    animation: slideDown 0.5s ease-in-out;
+    animation-delay: 0.6s;
+  }
+  
+  /* Animação para o rodapé */
+  .footer {
+    animation: slideDown 0.5s ease-in-out;
+    animation-delay: 0.8s;
+  }
+  

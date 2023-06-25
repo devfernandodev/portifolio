@@ -13,7 +13,6 @@
   font-weight: bold;
 }
 
-
 .header-menu {
   display: flex;
   flex-wrap: wrap;
@@ -31,7 +30,7 @@
 }
 
 .header-menu a::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: -0px;
@@ -44,9 +43,6 @@
 .header-menu a:hover::after {
   width: 100%;
 }
-
-
-
 
 @media only screen and (max-width: 768px) {
   .header {
@@ -67,11 +63,11 @@
   }
 
   .header-menu a {
-    font-size: 1.40rem;
+    font-size: 1.4rem;
   }
 }
 /* Estilos para tablets e dispositivos móveis */
-@media screen and (max-width: 1024px) and (max-width:1080px) {
+@media screen and (max-width: 1024px) and (max-width: 1080) {
   .header {
     font-size: 2.5rem;
   }
