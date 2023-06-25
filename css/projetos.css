@@ -1,10 +1,19 @@
-.projetos {
+/* .projetos {
   max-width: 1200px;
   padding: 40px 20px;
   margin: 0auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 100px;
+} */
+
+
+.projetos{
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 2fr;
+  display: grid;
 }
 
 .projeto-texto {

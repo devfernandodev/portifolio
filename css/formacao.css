@@ -114,7 +114,7 @@
 
  /* Media queries */
 
- @media screen and (max-width: 767px) {
+ @media screen and (max-width: 767px)  {
   .formacao-container {
     grid-template-columns: 1fr;
   }
@@ -149,5 +149,106 @@
   }
   .Idiomas{
     font-size: 1rem;
+  }
+}
+
+/* Outras medidas de aparelhos */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .formacao-container {
+    grid-template-columns: 1fr;
+  }
+  .formacao-texto {
+    font-size: 1.375rem;
+    max-width: unset;
+  }
+
+  .faculdade-curso::before {
+    left: -30px;
+  }
+
+  .formacao-extra h3 {
+    font-size: 0.875rem;
+    margin-bottom: 30px;
+  }
+
+  .formacao-extra h3::before {
+    width: 1.25rem;
+    height: 1.25rem;
+    left: -34px;
+  }
+
+  .formacao-extra li {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+  .Idiomas{
+    font-size: 1.125rem;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .formacao-container {
+    grid-template-columns: 1fr;
+  }
+  .formacao-texto {
+    font-size: 1.5rem;
+    max-width: 40ch;
+  }
+
+  .faculdade-curso::before {
+    left: -40px;
+  }
+
+  .formacao-extra h3 {
+    font-size: 1rem;
+    margin-bottom: 40px;
+  }
+
+  .formacao-extra h3::before {
+    width: 1.5rem;
+    height: 1.5rem;
+    left: -44px;
+  }
+
+  .formacao-extra li {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  .Idiomas{
+    font-size: 1.25rem;
+  }
+}
+
+/* Medidas para smartphones */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .formacao-container {
+    grid-template-columns: 1fr;
+  }
+  .formacao-texto {
+    font-size: 1.125rem;
+    max-width: unset;
+  }
+
+  .faculdade-curso::before {
+    left: -16px;
+  }
+
+  .formacao-extra h3 {
+    font-size: 0.625rem;
+    margin-bottom: 16px;
+  }
+
+  .formacao-extra h3::before {
+    width: 0.75rem;
+    height: 0.75rem;
+    left: -20px;
+  }
+
+  .formacao-extra li {
+    font-size: 0.875rem;
+    margin-bottom: 0.875rem;
+  }
+  .Idiomas{
+    font-size: 0.875rem;
   }
 }
