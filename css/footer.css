@@ -61,22 +61,66 @@
   border-radius: 0.575rem;
 }
 
-/* Estilos para dispositivos móveis */
+/* Media Queries para smartphones e tablets */
 @media screen and (max-width: 767px) {
   .footer-container {
     grid-template-columns: 1fr;
-    gap: 30px;
-    text-align: center;
+  }
+
+  .footer-texto {
+    font-size: 1.25rem;
+  }
+
+  .footer-contato {
+    flex-direction: column;
+    gap: 3rem;
   }
 }
-@media screen and (max-width: 400px) {
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .footer-container {
     grid-template-columns: 1fr;
-    gap: 30px;
-    text-align: center;
-    
+    gap: 6rem;
   }
-  .footer-contato .footer-link{
-    justify-content: center;
+}
+
+/* Media Queries para smartphones */
+@media screen and (max-width: 479px) {
+  .footer-container {
+    padding: 8rem 1rem 4rem 1rem;
+  }
+
+  .footer-texto {
+    font-size: 1.25rem;
+    padding: 2rem;
+  }
+
+  .footer-contato {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-copy {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-container {
+    padding: 10rem 1rem 5rem 1rem;
+  }
+
+  .footer-texto {
+    font-size: 1.5rem;
+    padding: 3rem;
+  }
+
+  .footer-contato {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .footer-copy {
+    font-size: 1.125rem;
   }
 }
