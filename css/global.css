@@ -79,6 +79,9 @@ scrollbar-thumb:hover {
   .subtitulo {
     font-size: 3rem;
   }
+  body{
+    font-size: 1.40rem;
+  }
 }
 
 
