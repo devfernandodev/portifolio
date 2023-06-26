@@ -44,48 +44,34 @@
   width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
+/* Media queries para dispositivos com largura de tela menor que 600px */
+@media (max-width: 600px) {
   .header {
     flex-direction: column;
-    gap: 20px;
-    text-align: center;
-  }
-
-  .header-menu {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .header {
-    font-size: 2rem;
-  }
-
-  .header-menu a {
-    font-size: 1.4rem;
-  }
-}
-/* Estilos para tablets e dispositivos móveis */
-@media screen and (max-width: 1024px) and (max-width: 1080) {
-  .header {
+    align-items: flex-start;
     font-size: 2.5rem;
-  }
-}
-
-/* Estilos para dispositivos móveis */
-@media screen and (max-width: 767px) {
-  .header {
-    padding: 20px;
-    font-size: 2rem;
+    gap: 30px;
   }
 
   .header-menu {
-    flex-direction: column;
-    align-items: center;
+    justify-content: flex-start;
   }
 
   .header-menu a {
-    padding: 8px 16px;
+    font-size: 1rem;
+    padding: 5px 10px;
   }
+}
+
+/* Media queries para dispositivos com largura de tela entre 601px e 900px */
+@media (min-width: 601px) and (max-width: 900px) {
+  .header {
+    font-size: 2.8rem;
+    gap: 50px;
+  }
+}
+
+/* Media queries para dispositivos com largura de tela maior que 901px */
+@media (min-width: 901px) {
+  /* Nenhum estilo adicional necessário para telas maiores que 901px */
 }

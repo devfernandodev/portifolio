@@ -78,66 +78,129 @@
   border-radius: 0.575rem;
 }
 
-/* Media Queries para smartphones e tablets */
-@media screen and (max-width: 767px) and (max-width: 1080px) {
+/* Estilos padrão para o rodapé */
+.footer {
+  background-color: #000000;
+}
+
+.footer-container {
+  max-width: 1200px;
+  padding: 120px 20px 60px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.footer-container h3 {
+  grid-column: 1/-1;
+  margin-left: 6rem;
+  font-size: 3rem;
+  background-image: linear-gradient(#ed5636, #633bbc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.footer-texto {
+  padding: 30px;
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: #cccccc;
+}
+
+.footer-contato {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.footer-contato li {
+  margin-bottom: 30px;
+}
+
+.footer-copy {
+  text-align: center;
+  grid-column: 1/-1;
+  font-size: 1.125rem;
+  color: #8f8f8f;
+}
+
+.footer-contato .footer-link {
+  height: 6.5rem;
+  width: 2.5rem;
+  color: aliceblue;
+  font-size: 2rem;
+  text-decoration: none !important;
+}
+
+.text-icon {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #888;
+  padding: 10px;
+}
+
+#email {
+  background-color: #0077b5;
+  padding: 1rem;
+  border-radius: 0.575rem;
+}
+
+#linkedin {
+  background-color: #0077b5;
+  padding: 1rem;
+  border-radius: 0.575rem;
+}
+
+#whats {
+  background-color: #25d366;
+  padding: 1rem;
+  border-radius: 0.575rem;
+}
+
+#github {
+  background-color: #131212;
+  padding: 1rem;
+  border-radius: 0.575rem;
+}
+
+/* Media queries para dispositivos com largura de tela menor que 600px */
+@media (max-width: 600px) {
   .footer-container {
+    padding: 60px 10px 30px 10px;
     grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .footer-container h3 {
+    margin-left: 0;
+    font-size: 2.5rem;
   }
 
   .footer-texto {
+    padding: 20px;
     font-size: 1.25rem;
   }
 
   .footer-contato {
     flex-direction: column;
-    gap: 3rem;
+    gap: 30px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1080px) {
+/* Media queries para dispositivos com largura de tela entre 601px e 900px */
+@media (min-width: 601px) and (max-width: 900px) {
   .footer-container {
-    grid-template-columns: 1fr;
-    gap: 6rem;
+    padding: 80px 30px 40px 30px;
+    gap: 80px;
   }
 }
 
-/* Media Queries para smartphones */
-@media screen and (max-width: 479px) {
-  .footer-container {
-    padding: 8rem 1rem 4rem 1rem;
-  }
-
-  .footer-texto {
-    font-size: 1.25rem;
-    padding: 2rem;
-  }
-
-  .footer-contato {
-    flex-direction: column;
-    gap: 2rem;
-  }
-
-  .footer-copy {
-    font-size: 1rem;
-  }
+@media (min-width: 901px) {
+  /* Aqui você pode adicionar estilos adicionais para telas maiores que 900px */
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .footer-container {
-    padding: 10rem 1rem 5rem 1rem;
-  }
-
-  .footer-texto {
-    font-size: 1.5rem;
-    padding: 3rem;
-  }
-
-  .footer-contato {
-    flex-direction: column;
-    gap: 4rem;
-  }
-
-  .footer-copy {
-    font-size: 1.125rem;
-  }
-}

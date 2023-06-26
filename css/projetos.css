@@ -100,80 +100,68 @@
   padding: 5px 10px;
 }
 
-/* Estilos para tablets e dispositivos móveis */
-@media screen and (max-width: 1024px) and (max-width: 1080px) {
+/* Media queries para dispositivos com largura de tela menor que 600px */
+@media (max-width: 600px) {
   .projetos {
     grid-template-columns: 1fr;
-    justify-items: center;
-    text-align: center;
   }
-}
 
-/* Estilos para dispositivos móveis */
-@media screen and (max-width: 768px) {
-  .projetos {
-    padding: 1.25rem;
-    grid-template-columns: 1fr;
-    gap: 1.875rem;
+  .h1-projeto {
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    text-align: center;
   }
 
   .projeto-texto {
     max-width: none;
+    margin-bottom: 30px;
+    text-align: center;
   }
 
   .sites {
     grid-template-columns: 1fr;
-    padding: 0.625rem;
+    padding: 10px;
   }
 
   .site-ano {
-    position: static;
+    position: relative;
+    left: initial;
+    text-align: left;
+    width: auto;
+    margin-bottom: 5px;
+  }
+
+  .site-titulo {
+    font-size: 1rem;
     text-align: center;
-    margin-bottom: 0.625rem;
+  }
+
+  .site-texto {
+    font-size: 0.875rem;
+    text-align: center;
+  }
+
+  .site-habilidades {
+    justify-content: center;
   }
 }
-@media screen and (max-width: 481px) and (max-width:767px) {
+
+/* Media queries para dispositivos com largura de tela entre 601px e 900px */
+@media (min-width: 622px) and (max-width: 900px) {
   .projetos {
-    padding: 1.25rem;
     grid-template-columns: 1fr;
-    gap: 1.875rem;
   }
 
-  .projeto-texto {
-    max-width: none;
-  }
-
-  .sites {
-    grid-template-columns: 1fr;
-    padding:0.625rem;
-  }
-
-  .site-ano {
-    position: static;
+  .h1-projeto {
+    font-size: 4rem;
     text-align: center;
-    margin-bottom:0.625rem;
   }
-}
-@media screen and (max-width: 320px) and (max-width:480px) {
-  .projetos {
-    padding: 1.25rem;
-    grid-template-columns: 1fr;
-    gap: 1.875rem;
-  }
-
-  .projeto-texto {
-    max-width: none;
-  }
-
-  .sites {
-    grid-template-columns: 1fr;
-    padding:0.625rem;
-  }
-
-  .site-ano {
-    position: static;
+  .projeto-texto{
     text-align: center;
-    margin-bottom:0.625rem;
   }
 }
 
+/* Media queries para dispositivos com largura de tela maior que 901px */
+@media (min-width: 901px) {
+  /* Nenhum estilo adicional necessário para telas maiores que 901px */
+}
