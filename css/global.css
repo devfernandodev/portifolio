@@ -41,6 +41,7 @@ img {
 
 
 
+
 /* Para navegadores baseados em WebKit */
 ::-webkit-scrollbar {
   width: 10px; /* Largura da barra de rolagem */
@@ -57,6 +58,91 @@ img {
 ::-webkit-scrollbar-thumb:hover {
   background: #555; /* Cor do botão de rolagem ao passar o mouse */
 }
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .subtitulo {
+    font-size: 3.5rem;
+  }
+}
+
+/* .hard-skills {
+  max-width: 1200px;
+  padding: 120px 20px 60px 20px;
+  margin: 0auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;}
+  .hard-skills-lista{
+    grid-column: 2fr;
+  }
+  .hard-skills h2{
+    grid-column: 1/-1;
+  margin-left: 6rem;
+  font-size: 3rem;
+  background-image: linear-gradient(#ed5636, #633bbc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  } */
+
+
+
+/* Estilo para a nova seção de habilidades ("hard skills") */
+/* .hard-skills {
+  background-color: #f2f2f2;
+  padding: 60px 20px;
+}
+
+.hard-skills-title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.hard-skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hard-skills-item {
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1rem;
+}
+
+/* Media Queries */
+@media screen and (max-width: 767px) {
+  .hard-skills-item {
+    font-size: 0.875rem;
+    padding: 8px 16px;
+    margin: 8px;
+  }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Para navegadores Firefox */
 scrollbar {
