@@ -1,6 +1,6 @@
 const texto = "Desenvolvedor\nFront End";
 let index = 0;
-const intervalo = 200; // intervalo entre cada caractere digitado (em milissegundos)
+const intervalo = 150; // intervalo entre cada caractere digitado (em milissegundos)
 
 function escreverTexto() {
   const h1 = document.querySelector('.h1-digitando');

@@ -1,0 +1,79 @@
+.hardskills {
+    background-color: #000000e8;
+    padding: 50px 0;
+    color: #eaeaea;
+  }
+  
+  .hardskills .hard-conteiner {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+   
+  }
+  
+  .hardskills h3 {
+    display: grid;
+    font-size:3rem;
+    margin-bottom: 20px;
+    background-image: linear-gradient(#ed5636, #633bbc);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  
+  }
+  
+  .hardskills .hard-itens {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hardskills .hard-item {
+    font-size: 18px;
+    margin-right: 15px;
+  }
+  
+  .hardskills .hard-item i {
+    font-size: 2rem;
+    margin-right: 5px;
+  }
+  
+  /* Estilos para os ícones */
+  .hardskills .hard-item i {
+    color: #555555;
+  }
+  
+  /* Estilos individuais para cada ícone */
+  .hardskills .hard-item.html i {
+    color: #e34c26; /* Cor para o ícone HTML */
+  }
+  
+  .hardskills .hard-item.css i {
+    color: #264de4; /* Cor para o ícone CSS */
+  }
+  
+  .hardskills .hard-item.js i {
+    color: #f0db4f; /* Cor para o ícone JavaScript */
+  }
+  
+  .hardskills .hard-item.node i {
+    color: #339933; /* Cor para o ícone Node.js */
+  }
+  .line-hard{
+      max-width: 900px;
+  padding: 1px;
+  background-image: linear-gradient(to bottom right, #ed5636, #633bbc);
+  }
+  
+
+
+
+
+
+
+
+  
