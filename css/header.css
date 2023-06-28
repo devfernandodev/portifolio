@@ -59,7 +59,11 @@
 
   .header-menu a {
     font-size: 1rem;
-    padding: 5px 10px;
+    padding: 5px 5px;
+  }
+  .nick{
+   font-size: 2rem;
+   text-align: center;
   }
 }
 
