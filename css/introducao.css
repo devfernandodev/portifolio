@@ -9,15 +9,16 @@
 .perfil {
   border-radius: 50%;
   background-image: linear-gradient(to bottom right, #ed5636, #633bbc);
-  padding: 2px;
+  padding: 3px;
   box-sizing: border-box;
+  margin-left: 4rem;
 }
 
 .introducao h1 {
   font-size: 3rem;
   line-height: 1.125;
   margin-bottom: 30px;
-  background-image: linear-gradient(to bottom right, #ed5636, #633bbc);
+  background-image: linear-gradient(to right, #ed5636, #633bbc);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -69,6 +70,7 @@
 
   .perfil {
     margin-bottom: 30px;
+    margin: auto;
   }
 
   .introducao p {

@@ -13,27 +13,25 @@
     />
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/global.css" />
-    <link rel="stylesheet" href="./css/introducao.css" />
-    <link rel="stylesheet" href="./css/projetos.css" />
-    <link rel="stylesheet" href="./css/formacao.css" />
-    <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
-    <link rel="stylesheet" href="./css/hard.css" />
-    <link rel="stylesheet" href="./css/animation.css" />
+    
     <title>DevFernando</title>
   </head>
   <body>
     <!-- Começando com header(cabeçalho) - minha marca -->
-    <header class="header">
-      <span class="nick">&lt;Fernando/&gt;</span>
-      <!-- menu de navegaçao -->
+    <header>
       <nav>
-        <ul class="header-menu">
+        <a class="logo" href="https://github.com/devfernandodev" target="_blank">&lt;Fernando/&gt;</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
           <li><a href="#Projetos">Projetos</a></li>
           <li><a href="#hard">HardSkills</a></li>
           <li><a href="#Formação">Formação</a></li>
           <li><a href="#contato">Contato</a></li>
+          <li><a href="https://github.com/devfernandodev" target="_blank" >GitHub</a></li>
         </ul>
       </nav>
     </header>
@@ -48,7 +46,13 @@
       <div>
         <h1 class="h1-digitando">Desenvolvedor <br />Front End</h1>
         <p>
-          Olá! Sou Luis Fernando, estudante de Análise de Desenvolvimento de Sistemas na Estácio. Tenho paixão por resolver problemas e me concentro no desenvolvimento front-end. Estou sempre aprimorando minhas habilidades e buscando desafios para expandir meu conhecimento. Desenvolvi projetos pessoais que mostram minha capacidade de criar sites e aplicativos web interativos e responsivos, utilizando HTML, CSS e JavaScript.
+          Olá! Sou Luis Fernando, estudante de Análise de Desenvolvimento de
+          Sistemas na Estácio. Tenho paixão por resolver problemas e me
+          concentro no desenvolvimento front-end. Estou sempre aprimorando
+          minhas habilidades e buscando desafios para expandir meu conhecimento.
+          Desenvolvi projetos pessoais que mostram minha capacidade de criar
+          sites e aplicativos web interativos e responsivos, utilizando HTML,
+          CSS e JavaScript.
         </p>
       </div>
     </main>
@@ -63,6 +67,26 @@
           <strong>JavaScript.</strong>
         </p>
 
+        <div class="sites">
+          <span class="site-ano">2023</span>
+          <a
+            href="https://devfernandodev.github.io/bikecraft/"
+            target="_blank"
+          >
+            <h3 class="site-titulo">BikCraft</h3>
+          </a>
+
+          <p class="site-texto">
+            Neste Projeto "BikCraft" trbalhei no desenvolvimento
+            completo do <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong> tornando o
+            site responsivo.
+          </p>
+          <ul class="site-habilidades">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
         <div class="sites">
           <span class="site-ano">2023</span>
           <a
@@ -133,13 +157,10 @@
           <li class="hard-item js"><i class="fab fa-js"></i> JavaScript</li>
           <li class="hard-item node"><i class="fab fa-node"></i> Node.js</li>
         </ul>
-        
       </div>
     </section>
-    
-    
+
     <section class="formacao" id="Formação" aria-label="Formação">
-      
       <div class="formacao-container">
         <h2 class="subtitulo">Formação</h2>
 
@@ -222,7 +243,7 @@
                 <span class="text-icon">Linkedin</span>
               </a>
             </li>
-            <li>
+            <!-- <li>
               <a
                 class="footer-link"
                 id="footer-social"
@@ -231,7 +252,7 @@
                 ><i class="fa-brands fa-github" id="github"></i>
                 <span class="text-icon">GitHub</span>
               </a>
-            </li>
+            </li> -->
           </ul>
         </div>
 

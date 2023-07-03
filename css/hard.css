@@ -1,5 +1,5 @@
 .hardskills {
-    background-color: #000000e8;
+    background-color: #1b1b21;
     padding: 50px 0;
     color: #eaeaea;
   }
@@ -16,7 +16,7 @@
     display: grid;
     font-size:3rem;
     margin-bottom: 20px;
-    background-image: linear-gradient(#ed5636, #633bbc);
+    background-image: linear-gradient(to right,#ed5636, #633bbc);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

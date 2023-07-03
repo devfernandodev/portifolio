@@ -1,3 +1,9 @@
-/* Aqui está todas as media Queries */
- 
-/* HEADER */
+@import url(./menu-ham.css);
+@import url(./global.css);
+@import url(./introducao.css);
+@import url(./hard.css);
+@import url(./projetos.css);
+@import url(./footer.css);
+@import url(./animation.css);
+@import url(./formacao.css);
+

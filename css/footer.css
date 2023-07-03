@@ -1,86 +1,8 @@
-.footer {
-  background-color: #000000;
-}
-.footer-container {
-  max-width: 960px;
-  padding: 120px 20px 60px 20px;
-  margin: 0auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 100px;
-  align-items: center;
-}
-.footer-container h3 {
-  grid-column: 1/-1;
-  margin-left: 6rem;
-  font-size: 3rem;
-  background-image: linear-gradient(#ed5636, #633bbc);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-.footer-texto {
-  padding: 30px;
-  font-size: 1.5rem;
-  line-height: 1.33;
-  color: #cccccc;
-}
-.footer-contato {
-  display: flex;
-  gap: 60px;
-  align-items: center;
-}
-.footer-contato li {
-  margin-bottom: 30px;
-}
-.footer-copy {
-  text-align: center;
-  grid-column: 1/-1;
-  font-size: 1.125rem;
-  color: #8f8f8f;
-}
-.footer-contato .footer-link {
-  height: 6.5rem;
-  width: 2.5rem;
-  color: aliceblue;
-  font-size: 2rem;
-  text-decoration: none !important;
-  
-}
-.text-icon{
-  font-size: 1rem;
-  text-decoration: none;
-  color: #888;
-  padding: 10px;
-  }
 
-
-#email {
-  background-color: #0077b5;
-  padding: 1rem;
-  border-radius: 0.575rem;
-}
-#linkedin {
-  background-color: #0077b5;
-  padding: 1rem;
-  border-radius: 0.575rem;
-}
-#whats {
-  background-color: #25d366;
-  padding: 1rem;
-  border-radius: 0.575rem;
-  
-}
-#github {
-  background-color: #131212;
-  padding: 1rem;
-  border-radius: 0.575rem;
-}
 
 /* Estilos padrão para o rodapé */
 .footer {
-  background-color: #000000;
+  background-color: #141418;
 }
 
 .footer-container {
@@ -97,7 +19,7 @@
   grid-column: 1/-1;
   margin-left: 6rem;
   font-size: 3rem;
-  background-image: linear-gradient(#ed5636, #633bbc);
+  background-image: linear-gradient(to right,#ed5636, #633bbc);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
