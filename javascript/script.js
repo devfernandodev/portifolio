@@ -1,4 +1,4 @@
-const texto = "Desenvolvedor\nFront End";
+const texto = "Desenvolvedor\nDe Software";
 let index = 0;
 const intervalo = 150; // intervalo entre cada caractere digitado (em milissegundos)
 
